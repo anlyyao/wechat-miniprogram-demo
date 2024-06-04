@@ -1,0 +1,20 @@
+{
+  "name": "miniprogram-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-dev": "node miniprogram-ci/upload.js",
+    "build-npm": "node miniprogram-ci/npm.js",
+    "build-and-save": "node miniprogram-ci/build-and-save.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.11.6"
+  },
+  "devDependencies": {
+    "miniprogram-ci": "^2.0.2"
+  }
+}
